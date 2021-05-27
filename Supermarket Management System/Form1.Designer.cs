@@ -1,0 +1,217 @@
+﻿
+namespace Supermarket_Management_System
+{
+	partial class Form1
+	{
+		/// <summary>
+		/// Required designer variable.
+		/// </summary>
+		private System.ComponentModel.IContainer components = null;
+
+		/// <summary>
+		/// Clean up any resources being used.
+		/// </summary>
+		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+		protected override void Dispose(bool disposing)
+		{
+			if (disposing && (components != null))
+			{
+				components.Dispose();
+			}
+			base.Dispose(disposing);
+		}
+
+		#region Windows Form Designer generated code
+
+		/// <summary>
+		/// Required method for Designer support - do not modify
+		/// the contents of this method with the code editor.
+		/// </summary>
+		private void InitializeComponent()
+		{
+			this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
+			this.label1 = new System.Windows.Forms.Label();
+			this.txtUsername = new System.Windows.Forms.TextBox();
+			this.label2 = new System.Windows.Forms.Label();
+			this.label3 = new System.Windows.Forms.Label();
+			this.txtPassword = new System.Windows.Forms.TextBox();
+			this.cbRole = new System.Windows.Forms.ComboBox();
+			this.button1 = new System.Windows.Forms.Button();
+			this.button2 = new System.Windows.Forms.Button();
+			this.label4 = new System.Windows.Forms.Label();
+			this.label5 = new System.Windows.Forms.Label();
+			this.SuspendLayout();
+			// 
+			// guna2CircleButton1
+			// 
+			this.guna2CircleButton1.CheckedState.Parent = this.guna2CircleButton1;
+			this.guna2CircleButton1.CustomImages.Parent = this.guna2CircleButton1;
+			this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+			this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
+			this.guna2CircleButton1.HoverState.Parent = this.guna2CircleButton1;
+			this.guna2CircleButton1.Location = new System.Drawing.Point(-186, -19);
+			this.guna2CircleButton1.Name = "guna2CircleButton1";
+			this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+			this.guna2CircleButton1.ShadowDecoration.Parent = this.guna2CircleButton1;
+			this.guna2CircleButton1.Size = new System.Drawing.Size(547, 587);
+			this.guna2CircleButton1.TabIndex = 0;
+			// 
+			// label1
+			// 
+			this.label1.AutoSize = true;
+			this.label1.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.label1.Location = new System.Drawing.Point(552, 74);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(104, 34);
+			this.label1.TabIndex = 1;
+			this.label1.Text = "LOGIN";
+			// 
+			// txtUsername
+			// 
+			this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			this.txtUsername.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtUsername.Location = new System.Drawing.Point(614, 235);
+			this.txtUsername.Name = "txtUsername";
+			this.txtUsername.Size = new System.Drawing.Size(185, 25);
+			this.txtUsername.TabIndex = 2;
+			// 
+			// label2
+			// 
+			this.label2.AutoSize = true;
+			this.label2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.label2.Location = new System.Drawing.Point(434, 232);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(135, 28);
+			this.label2.TabIndex = 3;
+			this.label2.Text = "USERNAME";
+			// 
+			// label3
+			// 
+			this.label3.AutoSize = true;
+			this.label3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.label3.Location = new System.Drawing.Point(434, 312);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(140, 28);
+			this.label3.TabIndex = 4;
+			this.label3.Text = "PASSWORD";
+			// 
+			// txtPassword
+			// 
+			this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			this.txtPassword.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtPassword.Location = new System.Drawing.Point(615, 311);
+			this.txtPassword.Name = "txtPassword";
+			this.txtPassword.PasswordChar = '.';
+			this.txtPassword.Size = new System.Drawing.Size(184, 25);
+			this.txtPassword.TabIndex = 5;
+			// 
+			// cbRole
+			// 
+			this.cbRole.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.cbRole.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.cbRole.FormattingEnabled = true;
+			this.cbRole.Items.AddRange(new object[] {
+            "ADMIN",
+            "SELLER"});
+			this.cbRole.Location = new System.Drawing.Point(614, 161);
+			this.cbRole.Name = "cbRole";
+			this.cbRole.Size = new System.Drawing.Size(185, 35);
+			this.cbRole.TabIndex = 6;
+			this.cbRole.Text = "Select Role";
+			// 
+			// button1
+			// 
+			this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button1.ForeColor = System.Drawing.Color.White;
+			this.button1.Location = new System.Drawing.Point(461, 388);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(298, 50);
+			this.button1.TabIndex = 7;
+			this.button1.Text = "LOGIN";
+			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.button1_Click);
+			// 
+			// button2
+			// 
+			this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button2.ForeColor = System.Drawing.Color.White;
+			this.button2.Location = new System.Drawing.Point(558, 459);
+			this.button2.Name = "button2";
+			this.button2.Size = new System.Drawing.Size(113, 38);
+			this.button2.TabIndex = 8;
+			this.button2.Text = "Clear";
+			this.button2.UseVisualStyleBackColor = false;
+			this.button2.Click += new System.EventHandler(this.button2_Click);
+			// 
+			// label4
+			// 
+			this.label4.AutoSize = true;
+			this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.label4.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label4.ForeColor = System.Drawing.Color.White;
+			this.label4.Location = new System.Drawing.Point(33, 195);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(230, 102);
+			this.label4.TabIndex = 9;
+			this.label4.Text = "Supermarket\r\n   Management \r\n       System";
+			// 
+			// label5
+			// 
+			this.label5.AutoSize = true;
+			this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+			this.label5.Location = new System.Drawing.Point(857, 9);
+			this.label5.Name = "label5";
+			this.label5.Size = new System.Drawing.Size(24, 23);
+			this.label5.TabIndex = 10;
+			this.label5.Text = "X";
+			this.label5.Click += new System.EventHandler(this.label5_Click);
+			// 
+			// Form1
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.ClientSize = new System.Drawing.Size(893, 524);
+			this.Controls.Add(this.label5);
+			this.Controls.Add(this.label4);
+			this.Controls.Add(this.button2);
+			this.Controls.Add(this.button1);
+			this.Controls.Add(this.cbRole);
+			this.Controls.Add(this.txtPassword);
+			this.Controls.Add(this.label3);
+			this.Controls.Add(this.label2);
+			this.Controls.Add(this.txtUsername);
+			this.Controls.Add(this.label1);
+			this.Controls.Add(this.guna2CircleButton1);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+			this.Name = "Form1";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+			this.Text = "Form1";
+			this.ResumeLayout(false);
+			this.PerformLayout();
+
+		}
+
+		#endregion
+
+		private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
+		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.TextBox txtUsername;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.TextBox txtPassword;
+		private System.Windows.Forms.ComboBox cbRole;
+		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button button2;
+		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.Label label5;
+	}
+}
+
